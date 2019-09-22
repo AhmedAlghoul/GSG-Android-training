@@ -1,0 +1,433 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="7"
+            android:background="@drawable/table_header_bg"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Lecture Schedule"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture/Day"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 1"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 2"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 3"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 4"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 5"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Lecture 6"
+            android:textColor="#fff" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Saturday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Math " />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Chemistry" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Sunday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Biology" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Physics" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Drawing" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="monday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Math" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="chemistry" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Tuesday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Biology" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Physics" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="wednesday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Math" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Chemistry" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_blue"
+            android:gravity="center"
+             
+            android:text="Thursday"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Biology" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_span="2"
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+             
+            android:text="Physics" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/table_cell_bg_white"
+            android:gravity="center"
+              />
+
+    </TableRow>
+
+
+</TableLayout>

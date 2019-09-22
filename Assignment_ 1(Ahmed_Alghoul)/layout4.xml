@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/azhar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-17dp" />
+    <TextView
+        android:id="@+id/dscr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:layout_below="@id/image"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/descr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dscr"
+        android:text="Al Azhar University-Gaza (AUG) is a Palestinian, public, non-profit and independent higher education institution. It was established in 1991 in the Gaza City by a presidential decree issued and signed by the late Palestinian leader Yasser Arafat to be a non-conventional lighthouse in the course of higher education in Palestine."
+        android:layout_below="@id/dscr"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/dscr"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:layout_below="@id/descr_text"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/address"
+        android:text="     Jamal Abdl Naser St. Gaza ,Palestine    "
+        android:layout_below="@id/address"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/address"/>
+    <TextView
+android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMail :"
+        android:layout_below="@id/address"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/email"
+        android:text="            irunit@alazhar.edu.ps"
+        android:layout_below="@id/address_text"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/email"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone :"
+        android:layout_below="@id/email"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/phone"
+        android:text="          +970 - 08 - 2641890"
+        android:layout_below="@id/address_text"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@id/phone"/>
+    <ImageView
+        android:id="@+id/linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:src="@drawable/linkedin"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/phone"/>
+    <ImageView
+        android:id="@+id/facebok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_number"
+        android:src="@drawable/facebook"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/linkedin"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_number"
+        android:src="@drawable/twitter"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/facebok"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_number"
+        android:src="@drawable/youtube"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/twitter"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
